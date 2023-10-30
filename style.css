@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+
+body{
+  background-color: white;
+  color:black;
+  font: size 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1{
+  color: rgb(7, 59, 58);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+}
+
+h3{
+  color: rgb(8, 160, 69);
+}
+
+.link-black{
+  color: black;
+  padding: 5px;
+  height: 10px;
+}
+
+.link-black:hover{
+  color: gray;
+}
+
+#profile-photo{
+  height: 200px;
+  border-radius: 50%;
+}
+
+
+.container{
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  border-radius: 15px
+}
+
+.card{
+  background-color: gainsboro;
+  border: black;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  text-align: center;
+  padding: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#profile-button{
+  background-color: #686fcb;
+  color: white;
+  padding: 9px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+#profile-button:hover{
+background-color:gray ;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
